@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16242 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16317 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
+D:\Unity\2022.3.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/R2D2R/OneDrive/Documentos/Unity projects/Robot-Fights/Robot Fghts
+F:/dev/RobotFights/Project/Robot-Fights/Robot Fghts
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57995
-Successfully changed project path to: C:/Users/R2D2R/OneDrive/Documentos/Unity projects/Robot-Fights/Robot Fghts
-C:/Users/R2D2R/OneDrive/Documentos/Unity projects/Robot-Fights/Robot Fghts
+50633
+Successfully changed project path to: F:/dev/RobotFights/Project/Robot-Fights/Robot Fghts
+F:/dev/RobotFights/Project/Robot-Fights/Robot Fghts
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,68 +49,67 @@ C:/Users/R2D2R/OneDrive/Documentos/Unity projects/Robot-Fights/Robot Fghts
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12420] Host "[IP] 10.22.117.96 [Port] 0 [Flags] 2 [Guid] 3279227463 [EditorId] 3279227463 [Version] 1048832 [Id] WindowsEditor(7,R2D2RDZ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12612] Host "[IP] 10.22.107.248 [Port] 0 [Flags] 2 [Guid] 3821207267 [EditorId] 3821207267 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FR4CD6H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12420] Host "[IP] 10.22.117.96 [Port] 0 [Flags] 2 [Guid] 3279227463 [EditorId] 3279227463 [Version] 1048832 [Id] WindowsEditor(7,R2D2RDZ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12612] Host "[IP] 10.22.107.248 [Port] 0 [Flags] 2 [Guid] 3821207267 [EditorId] 3821207267 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FR4CD6H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 429.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/R2D2R/OneDrive/Documentos/Unity projects/Robot-Fights/Robot Fghts/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/dev/RobotFights/Project/Robot-Fights/Robot Fghts/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
-    Vendor:   Intel
-    VRAM:     8121 MB
-    Driver:   30.0.101.1338
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.2756
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Mono path[0] = 'D:/Unity/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.066357 seconds.
-- Loaded All Assemblies, in  7.009 seconds
+Register platform support module: D:/Unity/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008182 seconds.
+- Loaded All Assemblies, in  0.619 seconds
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1277 ms
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.126 seconds
-Domain Reload Profiling: 10015ms
-	BeginReloadAssembly (2664ms)
+- Finished resetting the current domain, in  0.514 seconds
+Domain Reload Profiling: 1133ms
+	BeginReloadAssembly (170ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (9ms)
-	RebuildCommonClasses (948ms)
-	RebuildNativeTypeToScriptingClass (96ms)
-	initialDomainReloadingComplete (1535ms)
-	LoadAllAssembliesAndSetupDomain (1645ms)
-		LoadAssemblies (2643ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (169ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1634ms)
-			TypeCache.Refresh (1624ms)
-				TypeCache.ScanAssembly (1494ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (3127ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (219ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (515ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2671ms)
+		SetupLoadedEditorAssemblies (409ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1885ms)
-			SetLoadedEditorAssemblies (16ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (486ms)
-			ProcessInitializeOnLoadMethodAttributes (274ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (294ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,1039 +117,151 @@ Domain Reload Profiling: 10015ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.673 seconds
-Refreshing native plugins compatible for Editor in 12.90 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.726 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.437 seconds
-Domain Reload Profiling: 3102ms
-	BeginReloadAssembly (401ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (83ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (99ms)
-	LoadAllAssembliesAndSetupDomain (1052ms)
-		LoadAssemblies (797ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (505ms)
-			TypeCache.Refresh (456ms)
-				TypeCache.ScanAssembly (406ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1437ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1075ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (60ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (788ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.30 seconds
-Refreshing native plugins compatible for Editor in 22.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.1 KB). Loaded Objects now: 3572.
-Memory consumption went from 132.2 MB to 132.1 MB.
-Total: 12.715000 ms (FindLiveObjects: 0.485400 ms CreateObjectMapping: 0.702300 ms MarkObjects: 11.319000 ms  DeleteObjects: 0.206100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 62578.113096 seconds.
-  path: Assets/Scripts/RobotCreator.cs
-  artifactKey: Guid(5218ce368bbea0141be56c546d2e897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/RobotCreator.cs using Guid(5218ce368bbea0141be56c546d2e897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c20964dc06281635411777379340047') in 0.014886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.878 seconds
-Refreshing native plugins compatible for Editor in 7.85 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.385 seconds
-Domain Reload Profiling: 2257ms
-	BeginReloadAssembly (240ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (508ms)
-		LoadAssemblies (554ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (100ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (74ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1386ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (539ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (375ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 7.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3575.
-Memory consumption went from 129.1 MB to 129.1 MB.
-Total: 3.966800 ms (FindLiveObjects: 0.273100 ms CreateObjectMapping: 0.250100 ms MarkObjects: 3.376000 ms  DeleteObjects: 0.066200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1044.800646 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd50ef4f04f215d1f40fe89041aab1b0') in 0.233036 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 12.410133 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef69db3beaf4058879046f4c8a308d8') in 0.021462 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 6.670003 seconds.
-  path: Assets/GameObjects/Cabeza.prefab
-  artifactKey: Guid(d52a98bd45f6e6a47b3ac5b174cd219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Cabeza.prefab using Guid(d52a98bd45f6e6a47b3ac5b174cd219c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abccf89d226b5b296d86b119dab6fd4') in 0.021560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.161836 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb99cf5a665f5ce91f7e6da1412e277') in 0.022623 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 70
-========================================================================
-Received Import Request.
-  Time since last request: 29.336503 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77809bda80dce0beeaf58224d875a5d5') in 0.038909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 70
-========================================================================
-Received Import Request.
-  Time since last request: 4.599460 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cacf0973982ea32a421725095029e3') in 0.034082 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 70
-========================================================================
-Received Import Request.
-  Time since last request: 6.831024 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805894a69c1c579d156d4c7a64fe30de') in 0.029462 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 70
-========================================================================
-Received Import Request.
-  Time since last request: 13.364093 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7438dc1e52e773c48b722f1956c9b6ba') in 0.026977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 76
-========================================================================
-Received Import Request.
-  Time since last request: 1.577863 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdd547d7242f3b96a1bb647401a0f8f') in 0.029612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 82
-========================================================================
-Received Import Request.
-  Time since last request: 10.274591 seconds.
-  path: Assets/GameObjects/Cabeza (1).prefab
-  artifactKey: Guid(f29ed3df7c148864fbf98488c662ccc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Cabeza (1).prefab using Guid(f29ed3df7c148864fbf98488c662ccc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b403d908ec53385f207d3bf85718efb') in 0.019731 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.036409 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78c8ff1681be3b13214f78c4f8ba5d5') in 0.027650 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 88
-========================================================================
-Received Import Request.
-  Time since last request: 4.854958 seconds.
-  path: Assets/GameObjects/Cabeza (2).prefab
-  artifactKey: Guid(c71fc0e94ac4e7444941ba5d9861d37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Cabeza (2).prefab using Guid(c71fc0e94ac4e7444941ba5d9861d37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c526dad1d62d888fd80ac5ab9700a7') in 0.017280 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.026033 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18473c30c7d664755bb54526cac5f3de') in 0.022485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 94
-========================================================================
-Received Import Request.
-  Time since last request: 17.927432 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aeff68f3bf874d4e742d498a6fa12c7') in 0.024446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
-========================================================================
-Received Import Request.
-  Time since last request: 2.805741 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94891fc68f49ca895cae3471ee2aa27') in 0.025334 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 76
-========================================================================
-Received Import Request.
-  Time since last request: 3.608365 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d3ca0f2403f6c72a639cff44de8d7b') in 0.031144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 3.201339 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ca47421e6b844f237a0db7e648365d') in 0.028030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 56
-========================================================================
-Received Import Request.
-  Time since last request: 6.850932 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5dd51e824cbb6f6a2f3f15a3c76547') in 0.021975 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 70
-========================================================================
-Received Import Request.
-  Time since last request: 1.569507 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f40921ab98d2d7035cbeab94dde674') in 0.035812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 57
-========================================================================
-Received Import Request.
-  Time since last request: 2.807457 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e975e7470cedeea7bf6755b3b1a8cd1') in 0.031763 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 50
-========================================================================
-Received Import Request.
-  Time since last request: 2.621251 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0198ad53a4399b8fb0c3092efc6c146b') in 0.029539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 43
-========================================================================
-Received Import Request.
-  Time since last request: 1.796759 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2e2d8e742310e019ea7659f7ae39c9') in 0.032489 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 1.202566 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d0905c348e1b5423ee4a2184b6f615') in 0.030452 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 3.173971 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0fa00c471bc280b0e966a6145ede1b') in 0.029288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 44
-========================================================================
-Received Import Request.
-  Time since last request: 7.245042 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737a5a44492cfa11e0c6df28fa1bb2f6') in 0.024567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 44
-========================================================================
-Received Import Request.
-  Time since last request: 1.991368 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfcc3b04a0d1817ec647a0d6a60875f') in 0.026508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 44
-========================================================================
-Received Import Request.
-  Time since last request: 2.583631 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6ff09378386b269164f2fbab60ce23') in 0.022737 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 44
-========================================================================
-Received Import Request.
-  Time since last request: 1.817357 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b134ec868dbdb7e7a56d30a68c9fb1f1') in 0.030087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 50
-========================================================================
-Received Import Request.
-  Time since last request: 0.782943 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ad864c3fb72b5bd38b1b4c1c0a40d4') in 0.026212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 56
-========================================================================
-Received Import Request.
-  Time since last request: 16.255699 seconds.
-  path: Assets/GameObjects/RobotParts
-  artifactKey: Guid(59ecd59ed854b694fa91778b3d316f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts using Guid(59ecd59ed854b694fa91778b3d316f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53d310da5d0dd8a0eba5002d0b42998') in 0.000755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.012261 seconds.
-  path: Assets/GameObjects/RobotParts/Heads
-  artifactKey: Guid(6ce28c0295dfc49478db836446ca39d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Heads using Guid(6ce28c0295dfc49478db836446ca39d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92844de093728060b7546e138c8ca0b') in 0.000705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.321132 seconds.
-  path: Assets/GameObjects/RobotParts/Hands
-  artifactKey: Guid(5d43a18343deca84198e3f9fa716ead2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Hands using Guid(5d43a18343deca84198e3f9fa716ead2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff29e0df3600fd77054bc7ff68abc2e3') in 0.000636 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.873935 seconds.
-  path: Assets/GameObjects/RobotParts/Bodys
-  artifactKey: Guid(3a66b4e1a6e5ef54ea0f53f024784ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Bodys using Guid(3a66b4e1a6e5ef54ea0f53f024784ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbe7c5b90dc3b51d3c16b491e030602') in 0.000688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.231856 seconds.
-  path: Assets/GameObjects/RobotParts/Legs
-  artifactKey: Guid(cb2752276711b5d43bc082c3509e2f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Legs using Guid(cb2752276711b5d43bc082c3509e2f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b967feea8164bdffc4c034b8a2a722') in 0.001037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 351.310234 seconds.
-  path: Assets/GameObjects/RobotParts/Hands/Sierra (1) Variant.prefab
-  artifactKey: Guid(7a56a4f2932fdaf4e91fc284036a3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Hands/Sierra (1) Variant.prefab using Guid(7a56a4f2932fdaf4e91fc284036a3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35445529eb38de9d8297ecb83a5302a') in 0.027813 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 3.620640 seconds.
-  path: Assets/GameObjects/RobotParts/Hands/Sierra (2) Variant.prefab
-  artifactKey: Guid(682b8f44a98219744836bdafb3b01003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Hands/Sierra (2) Variant.prefab using Guid(682b8f44a98219744836bdafb3b01003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9eeea71df09a188d3d27dbf568dc5de') in 0.020210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 7.603376 seconds.
-  path: Assets/GameObjects/RobotParts/Hands/Sierra (1) Variant.prefab
-  artifactKey: Guid(7a56a4f2932fdaf4e91fc284036a3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Hands/Sierra (1) Variant.prefab using Guid(7a56a4f2932fdaf4e91fc284036a3204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a56b934e0e12339de775728bfb509e') in 0.025967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 10.035635 seconds.
-  path: Assets/GameObjects/RobotParts/Hands/Sierra (2) Variant.prefab
-  artifactKey: Guid(682b8f44a98219744836bdafb3b01003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Hands/Sierra (2) Variant.prefab using Guid(682b8f44a98219744836bdafb3b01003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9146a10c820003c73bea945947d241') in 0.025078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 59.311566 seconds.
-  path: Assets/GameObjects/RobotParts/Heads/Cabeza (1) Variant.prefab
-  artifactKey: Guid(42f9096cbb00db34baf6d09823f8fd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Heads/Cabeza (1) Variant.prefab using Guid(42f9096cbb00db34baf6d09823f8fd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b956f07be29935563036ebc32a7ca8d') in 0.021709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 3.343285 seconds.
-  path: Assets/GameObjects/RobotParts/Heads/Cabeza (2) Variant.prefab
-  artifactKey: Guid(5b04c9735aaba4641a23a9989c197fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Heads/Cabeza (2) Variant.prefab using Guid(5b04c9735aaba4641a23a9989c197fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa1ad38a5d579f015ea402a5fad8b15') in 0.019216 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 3.190538 seconds.
-  path: Assets/GameObjects/RobotParts/Heads/Cabeza (3) Variant.prefab
-  artifactKey: Guid(dfc73c105fd79684a91c45eec4b084a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Heads/Cabeza (3) Variant.prefab using Guid(dfc73c105fd79684a91c45eec4b084a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c5aab66ee21ff129b68e2a9130ea0f') in 0.019959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 11.571794 seconds.
-  path: Assets/GameObjects/RobotParts/Heads/Cabeza (1) Variant.prefab
-  artifactKey: Guid(42f9096cbb00db34baf6d09823f8fd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Heads/Cabeza (1) Variant.prefab using Guid(42f9096cbb00db34baf6d09823f8fd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510c2d7d438a1c2072e9d10fdfe36fc6') in 0.029874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 9.124799 seconds.
-  path: Assets/GameObjects/RobotParts/Heads/Cabeza (2) Variant.prefab
-  artifactKey: Guid(5b04c9735aaba4641a23a9989c197fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Heads/Cabeza (2) Variant.prefab using Guid(5b04c9735aaba4641a23a9989c197fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe2829da17e4f05c7fb3d03bef38dad') in 0.031789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 4.244232 seconds.
-  path: Assets/GameObjects/RobotParts/Heads/Cabeza (3) Variant.prefab
-  artifactKey: Guid(dfc73c105fd79684a91c45eec4b084a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Heads/Cabeza (3) Variant.prefab using Guid(dfc73c105fd79684a91c45eec4b084a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebef6ac995d8f38b5e8c9d82cf137dc0') in 0.027646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.796 seconds
-Refreshing native plugins compatible for Editor in 11.05 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.893 seconds
-Domain Reload Profiling: 3704ms
-	BeginReloadAssembly (260ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (59ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (375ms)
-		LoadAssemblies (504ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (2918ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (934ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (103ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (165ms)
-			ProcessInitializeOnLoadAttributes (577ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (75ms)
-Refreshing native plugins compatible for Editor in 13.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.3 KB). Loaded Objects now: 3589.
-Memory consumption went from 131.3 MB to 131.3 MB.
-Total: 4.785000 ms (FindLiveObjects: 1.217900 ms CreateObjectMapping: 0.380400 ms MarkObjects: 3.133800 ms  DeleteObjects: 0.047800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 222.137207 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278b1bafef3218ec59de113a94bda7d5') in 0.194360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 119
-========================================================================
-Received Import Request.
-  Time since last request: 11.649072 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7e4fb6ff6d45e3dd9aac1563503f6d') in 0.029409 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 118
-========================================================================
-Received Import Request.
-  Time since last request: 2.480801 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709837e27faf68c2eedb4d0b0edf3864') in 0.030000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 117
-========================================================================
-Received Import Request.
-  Time since last request: 2.069076 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41b0f21a69af7e51e5cddd64818e550') in 0.033304 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 116
-========================================================================
-Received Import Request.
-  Time since last request: 12.215421 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f13abb914d58393cd8679ec4ce44d01') in 0.025182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 121
-========================================================================
-Received Import Request.
-  Time since last request: 8.613315 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df324ddbaf39651b4f1510bc85b4d61') in 0.031170 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 121
-========================================================================
-Received Import Request.
-  Time since last request: 1.193572 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82218fc59e26f49b9844104e56f5cc2a') in 0.030679 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 126
-========================================================================
-Received Import Request.
-  Time since last request: 0.178507 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62675b35220d09e6c7f2cdf9f28afb4') in 0.025209 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 131
-========================================================================
-Received Import Request.
-  Time since last request: 0.192795 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff96399844d49601962645aaf9f6722') in 0.028136 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 136
-========================================================================
-Received Import Request.
-  Time since last request: 9.315858 seconds.
-  path: Assets/GameObjects/RobotParts/Bodys/Cuerpo.prefab
-  artifactKey: Guid(eab14f23e21d6274c914e7f49791a13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Bodys/Cuerpo.prefab using Guid(eab14f23e21d6274c914e7f49791a13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fb09344b36097873c674a25c8f7c6a') in 0.019976 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 1.578089 seconds.
-  path: Assets/GameObjects/RobotParts/Bodys/Cuerpo (1).prefab
-  artifactKey: Guid(cbfeedc17a88c2746901aba7d129e2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Bodys/Cuerpo (1).prefab using Guid(cbfeedc17a88c2746901aba7d129e2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bf63a1c854c881aef339d863784b18') in 0.015839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 2.760720 seconds.
-  path: Assets/GameObjects/RobotParts/Bodys/Cuerpo (2).prefab
-  artifactKey: Guid(b79c4da24ff47ae4082929cb8849961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Bodys/Cuerpo (2).prefab using Guid(b79c4da24ff47ae4082929cb8849961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073b917239f847f552e1f97e24412bed') in 0.019094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 2.679795 seconds.
-  path: Assets/GameObjects/RobotParts/Bodys/Cuerpo (3).prefab
-  artifactKey: Guid(1ef9c27e943a4e94aac26145ef8e763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Bodys/Cuerpo (3).prefab using Guid(1ef9c27e943a4e94aac26145ef8e763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a6de69b5c964924be901155eae28dd') in 0.020638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 14.517500 seconds.
-  path: Assets/GameObjects/RobotParts/Bodys/Cuerpo (1).prefab
-  artifactKey: Guid(cbfeedc17a88c2746901aba7d129e2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Bodys/Cuerpo (1).prefab using Guid(cbfeedc17a88c2746901aba7d129e2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071b6e9d5cda1ad4b74859b44f02755b') in 0.025590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 4.547812 seconds.
-  path: Assets/GameObjects/RobotParts/Bodys/Cuerpo (2).prefab
-  artifactKey: Guid(b79c4da24ff47ae4082929cb8849961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Bodys/Cuerpo (2).prefab using Guid(b79c4da24ff47ae4082929cb8849961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c764f9e7224f2c531de4d51bb3640850') in 0.023765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 3.895157 seconds.
-  path: Assets/GameObjects/RobotParts/Bodys/Cuerpo (3).prefab
-  artifactKey: Guid(1ef9c27e943a4e94aac26145ef8e763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Bodys/Cuerpo (3).prefab using Guid(1ef9c27e943a4e94aac26145ef8e763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634db57e3d3d0a43c123594d23de0680') in 0.024360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 111.663291 seconds.
-  path: Assets/GameObjects/RobotParts/Legs/Leg.prefab
-  artifactKey: Guid(9388985a50e5fd74e9d55c52361990d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Legs/Leg.prefab using Guid(9388985a50e5fd74e9d55c52361990d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2ba4f54b1eb611acd0fdc413c8f1fe') in 0.019560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 5.976569 seconds.
-  path: Assets/GameObjects/RobotParts/Legs/Leg (1) Variant.prefab
-  artifactKey: Guid(279a23d3301dec7408e367fa83956209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Legs/Leg (1) Variant.prefab using Guid(279a23d3301dec7408e367fa83956209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a422d10e698718789f975307ebf609a') in 0.021087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 2.900221 seconds.
-  path: Assets/GameObjects/RobotParts/Legs/Leg (2) Variant.prefab
-  artifactKey: Guid(486f13b4737d56d45a26f244683f2e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Legs/Leg (2) Variant.prefab using Guid(486f13b4737d56d45a26f244683f2e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bd032f574f926cb4e7d8d2d7a14e8f') in 0.021943 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 2.510293 seconds.
-  path: Assets/GameObjects/RobotParts/Legs/Leg (3) Variant.prefab
-  artifactKey: Guid(ef9775597a407474899309857245e01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Legs/Leg (3) Variant.prefab using Guid(ef9775597a407474899309857245e01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7b9c4cbec65e6b48bc6664eb172e21') in 0.017760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 4.457913 seconds.
-  path: Assets/GameObjects/RobotParts/Legs/Leg (1) Variant.prefab
-  artifactKey: Guid(279a23d3301dec7408e367fa83956209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Legs/Leg (1) Variant.prefab using Guid(279a23d3301dec7408e367fa83956209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb6974d45f89b520f042f110642cee3') in 0.029903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 5.801494 seconds.
-  path: Assets/GameObjects/RobotParts/Legs/Leg (2) Variant.prefab
-  artifactKey: Guid(486f13b4737d56d45a26f244683f2e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Legs/Leg (2) Variant.prefab using Guid(486f13b4737d56d45a26f244683f2e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cb888939c6b6b6ea9a96de931c92dc') in 0.027484 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 4.557013 seconds.
-  path: Assets/GameObjects/RobotParts/Legs/Leg (3) Variant.prefab
-  artifactKey: Guid(ef9775597a407474899309857245e01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/RobotParts/Legs/Leg (3) Variant.prefab using Guid(ef9775597a407474899309857245e01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b133b7dabd776d707b96214f205adb1f') in 0.024362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 132.678249 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2e46b2ddc3cde27f35a20cb439fd55') in 0.042943 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 215
-========================================================================
-Received Import Request.
-  Time since last request: 7.871846 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecefdd35122d1fe40d7c6dcae44db50') in 0.543203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 215
-========================================================================
-Received Import Request.
-  Time since last request: 0.906837 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05b28559b836de6aeb48302f4cb3597') in 0.040923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 215
-========================================================================
-Received Import Request.
-  Time since last request: 2.398760 seconds.
-  path: Assets/GameObjects/Robot base.prefab
-  artifactKey: Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Robot base.prefab using Guid(6597bf1019875fe42807f33bb5a2c08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b3980fdc1eab0cc4f0d5e683098f72') in 0.082730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 215
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.771 seconds
-Refreshing native plugins compatible for Editor in 8.01 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.234 seconds
-Domain Reload Profiling: 3000ms
-	BeginReloadAssembly (256ms)
+- Finished resetting the current domain, in  0.670 seconds
+Domain Reload Profiling: 1397ms
+	BeginReloadAssembly (242ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (383ms)
-		LoadAssemblies (512ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (2235ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (888ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (635ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 14.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.3 KB). Loaded Objects now: 3592.
-Memory consumption went from 133.3 MB to 133.2 MB.
-Total: 3.878900 ms (FindLiveObjects: 0.317300 ms CreateObjectMapping: 0.336400 ms MarkObjects: 3.160100 ms  DeleteObjects: 0.063600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.876 seconds
-Refreshing native plugins compatible for Editor in 15.98 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.370 seconds
-Domain Reload Profiling: 3241ms
-	BeginReloadAssembly (286ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (427ms)
-		LoadAssemblies (580ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (2371ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (883ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (60ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (609ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 8.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.3 KB). Loaded Objects now: 3595.
-Memory consumption went from 135.2 MB to 135.2 MB.
-Total: 3.761000 ms (FindLiveObjects: 0.615400 ms CreateObjectMapping: 0.257700 ms MarkObjects: 2.841200 ms  DeleteObjects: 0.045000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.912 seconds
-Refreshing native plugins compatible for Editor in 8.60 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.027 seconds
-Domain Reload Profiling: 2933ms
-	BeginReloadAssembly (316ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
+		CreateAndSetChildDomain (33ms)
 	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (17ms)
+	RebuildNativeTypeToScriptingClass (21ms)
 	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (442ms)
-		LoadAssemblies (592ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (315ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (35ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (2028ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (671ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (613ms)
+		SetupLoadedEditorAssemblies (411ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (410ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 8.36 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.2 KB). Loaded Objects now: 3598.
-Memory consumption went from 137.1 MB to 137.1 MB.
-Total: 5.629700 ms (FindLiveObjects: 0.314500 ms CreateObjectMapping: 0.272400 ms MarkObjects: 4.972200 ms  DeleteObjects: 0.068500 ms)
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (57.0 KB). Loaded Objects now: 3562.
+Memory consumption went from 116.7 MB to 116.6 MB.
+Total: 5.992200 ms (FindLiveObjects: 0.448400 ms CreateObjectMapping: 0.439700 ms MarkObjects: 4.896300 ms  DeleteObjects: 0.206200 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.754 seconds
-Refreshing native plugins compatible for Editor in 8.40 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.114 seconds
-Domain Reload Profiling: 2862ms
-	BeginReloadAssembly (271ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (60ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (342ms)
-		LoadAssemblies (472ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (2115ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (849ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (55ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (130ms)
-			ProcessInitializeOnLoadAttributes (585ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 13.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.2 KB). Loaded Objects now: 3601.
-Memory consumption went from 139.1 MB to 139.1 MB.
-Total: 7.804700 ms (FindLiveObjects: 0.660100 ms CreateObjectMapping: 0.480400 ms MarkObjects: 6.571500 ms  DeleteObjects: 0.090500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 4268.496342 seconds.
+  path: Assets/Materials/Azul.mat
+  artifactKey: Guid(addc14a0bbba0374daaee512131b221a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Azul.mat using Guid(addc14a0bbba0374daaee512131b221a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e3c3890750e12be66fa372b6652607') in 0.264541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Materials/Rojo.mat
+  artifactKey: Guid(686fcad8bdadfcf43b3a4de0ebb42cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rojo.mat using Guid(686fcad8bdadfcf43b3a4de0ebb42cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9965c7327498e20acc91d2a0a8de5e4') in 0.023501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(966cb78b3fb940449a53bc545c3af4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(966cb78b3fb940449a53bc545c3af4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6e1140b19d663783ce80745e625b07') in 0.000714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.731235 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.050213 seconds.
+  path: Assets/Models
+  artifactKey: Guid(35172d6c80d549846a5f7d93501b0f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(35172d6c80d549846a5f7d93501b0f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae6094e1b3fe1e54da63f854bef3d00') in 0.000605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.964217 seconds.
+  path: Assets/Models/Test
+  artifactKey: Guid(1645dc5dd05b4864bb40dcdd019e0660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Test using Guid(1645dc5dd05b4864bb40dcdd019e0660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055a0a24450ce6d8d8ad800da0a3871f') in 0.000527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.816947 seconds.
+  path: Assets/Models/Test/Body_0.fbx
+  artifactKey: Guid(4f433b9bec83e0f42904c6107160a5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Test/Body_0.fbx using Guid(4f433b9bec83e0f42904c6107160a5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c150125301a1f2b001a6eb2943004488') in 0.088581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 53.315221 seconds.
+  path: Assets/Models/Test/Head_0.fbx
+  artifactKey: Guid(037be7b1f78c9ef47820513bca2d2efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Test/Head_0.fbx using Guid(037be7b1f78c9ef47820513bca2d2efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410837ee0803015d8aad9938832900ae') in 0.022555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 427.734979 seconds.
+  path: Assets/Models/Test/L_Arm_Bsc.fbx
+  artifactKey: Guid(2a92f271a44b5d94d8329ceebe61eed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Test/L_Arm_Bsc.fbx using Guid(2a92f271a44b5d94d8329ceebe61eed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbc0080693e47d2ced14a4b15424ca3') in 0.028760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Models/Test/R_Arm_Bsc.fbx
+  artifactKey: Guid(ad821abab483ebc459e2ed3eb85cd109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Test/R_Arm_Bsc.fbx using Guid(ad821abab483ebc459e2ed3eb85cd109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e8ff4d5bb878891f84e4ecad0a85d1') in 0.024028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Test/R_Leg_Bsc.fbx
+  artifactKey: Guid(738a93111bdd36f4e8a723864d7e631f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Test/R_Leg_Bsc.fbx using Guid(738a93111bdd36f4e8a723864d7e631f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45020838adf317f7fa9aecee55dab0a') in 0.022991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
