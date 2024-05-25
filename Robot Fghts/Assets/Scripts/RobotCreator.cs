@@ -6,7 +6,13 @@ public class RobotCreator : MonoBehaviour
 {
     // Start is called before the first frame update
     int hand = 0;
-    public GameObject[] Hands = new GameObject[4];
+    [SerializeField] GameObject[] Hands = new GameObject[4];
+    int head = 0;
+    [SerializeField] GameObject[] Heads = new GameObject[4];
+    int body = 0;
+    [SerializeField] GameObject[] Bodys = new GameObject[4];
+    int leg = 0;
+    [SerializeField] GameObject[] Legs = new GameObject[4];
 
     void Start()
     {
@@ -29,6 +35,33 @@ public class RobotCreator : MonoBehaviour
         Hands[hand].SetActive(true);
 
     }
+    public void ChangeHead(int change)
+    {
+        Heads[head].SetActive(false);
+        head += change;
+        if (head < 0) { head = Heads.Length - 1; }
+        if (head >= Heads.Length) { head = 0; }
+        Heads[head].SetActive(true);
+
+    }
+    public void ChangeBody(int change)
+    {
+        Bodys[body].SetActive(false);
+        body += change;
+        if (body < 0) { body = Bodys.Length - 1; }
+        if (body >= Bodys.Length) { body = 0; }
+        Bodys[body].SetActive(true);
+
+    }
+    public void ChangeLeg(int change)
+    {
+        Legs[leg].SetActive(false);
+        leg += change;
+        if (leg < 0) { leg = Legs.Length - 1; }
+        if (leg >= Legs.Length) { leg = 0; }
+        Legs[leg].SetActive(true);
+    }
+
 
 }
 
