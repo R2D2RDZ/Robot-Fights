@@ -7,10 +7,14 @@ public class Ataque : MonoBehaviour
 {
     private GameObject ring;
     private PlayerController controller;
+
     // Start is called before the first frame update
+
     void OnTriggerEnter(Collider victima){
         ring = GameObject.Find("Ring");
         controller = ring.GetComponent<PlayerController>();
+
+        GetComponent<AudioSource>().Play();
 
         if(victima.gameObject.name=="Robot1"){
             controller.cuerda1 = controller.cuerda1 - controller.ataque2;
