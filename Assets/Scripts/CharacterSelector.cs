@@ -20,7 +20,7 @@ public static class CharacterSelector
             string linea;
             
             while ((linea = sr.ReadLine()) != "")
-            {
+            { 
                 Debug.Log(linea);
                 personajes[i] = new character(linea);
                 i++;

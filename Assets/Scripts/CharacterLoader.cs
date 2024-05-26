@@ -14,7 +14,7 @@ public class CharacterLoader : MonoBehaviour
     character robotp1 = new character("Test", 0, 0, 0, 0);
     character robotp2 = new character("Test", 0, 0, 0, 0);
 
-    int numPersonajes;
+    int numPersonajes; 
 
     [SerializeField] Slider[] statsp1 = new Slider[4];
     [SerializeField] Slider[] statsp2 = new Slider[4];

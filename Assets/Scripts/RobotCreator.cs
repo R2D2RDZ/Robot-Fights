@@ -43,7 +43,7 @@ public class RobotCreator : MonoBehaviour
         Hands[hand].SetActive(true);
 
     }
-    public void ChangeHead(int change)
+    public void ChangeHead(int change) 
     {
         Heads[head].SetActive(false);
         head += change;
