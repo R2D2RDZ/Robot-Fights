@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: b4ddfa44fbdd7b34b9e6826e3d87e29d
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: c9ba278d0c8ccdb40899ffa2cb97ed56
+  - enabled: 1
+    path: Assets/Scenes/Ring.unity
+    guid: f82c11757ba437a438b6b3cf7f05857a
+  - enabled: 1
+    path: Assets/Scenes/RobotEditor.unity
+    guid: cfbb46e51bd74d1499de6e3e1038bbd7
   m_configObjects: {}

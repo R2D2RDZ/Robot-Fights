@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 0
   rotacion: 0
-  ataque: 0
+  ataque: 30
   maxCuerda: 0
