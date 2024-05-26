@@ -110,7 +110,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2672718632298052600}
   - component: {fileID: 7397101433943902234}
-  - component: {fileID: 6669141278665301154}
   m_Layer: 0
   m_Name: RobotPlayer
   m_TagString: Untagged
@@ -163,18 +162,6 @@ MonoBehaviour:
   - {fileID: 5683137634104197612}
   Legs:
   - {fileID: 8113677664291812050}
---- !u!114 &6669141278665301154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5332562213102394150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b882fbb7cc1104c4a8af1cf9b93ea669, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8082864501306357114
 GameObject:
   m_ObjectHideFlags: 0
