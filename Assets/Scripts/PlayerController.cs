@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
 
 
     private bool cuenta=false;
+    private bool end=false;
     // Start is called before the first frame update
     void Start()
     {
@@ -70,6 +71,8 @@ public class PlayerController : MonoBehaviour
 
         barra2 = GameObject.Find("Robot2/Canvas/Barra");
         healthbar2=barra2.GetComponent<Healthbar>();
+
+        end=false;
     }
 
     // Update is called once per frame
@@ -108,7 +111,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if(cuenta){
+        if(cuenta&&!end){
             if(Robotp1.isDown && Robotp2.isDown){
                 if(Input.GetKeyDown(KeyCode.W)){
                     cuerda1+=15;
@@ -225,11 +228,13 @@ public class PlayerController : MonoBehaviour
             {
                 p1countdown.text = "You lose";
                 p2countdown.text = "You win";
+                end = true;
             }
             else
             {
                 p1countdown.text = "You win";
                 p2countdown.text = "You lose";
+                end = true;
             }
             CancelInvoke();
             Invoke("endfight", 3f);
