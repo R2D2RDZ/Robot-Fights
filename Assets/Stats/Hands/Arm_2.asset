@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fab39083548cf4d8b78653d0725d8f, type: 3}
   m_Name: Arm_2
   m_EditorClassIdentifier: 
-  velocidad: 0
+  velocidad: 2
   rotacion: 0
-  ataque: 30
+  ataque: 20
   maxCuerda: 0

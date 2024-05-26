@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Head_1
   m_EditorClassIdentifier: 
   velocidad: 0
-  rotacion: 30
+  rotacion: 60
   ataque: 0
-  maxCuerda: 0
+  maxCuerda: -5

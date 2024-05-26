@@ -15,4 +15,4 @@ MonoBehaviour:
   velocidad: 0
   rotacion: 0
   ataque: 0
-  maxCuerda: 50
+  maxCuerda: 500

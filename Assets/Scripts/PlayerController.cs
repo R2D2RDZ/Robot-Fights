@@ -6,10 +6,10 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject player1;
     public GameObject player2;
-    public float cuerda1;
-    public float maxcuerda1=500;
-    public float cuerda2;
-    public float maxcuerda2=1000;
+    private float cuerda1;
+    private float maxcuerda1;
+    private float cuerda2;
+    private float maxcuerda2;
     public float speed1;
     public float speed2;
     public float rotspeed1; 
