@@ -6,10 +6,10 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject player1;
     public GameObject player2;
-    private float cuerda1;
-    private float maxcuerda1;
-    private float cuerda2;
-    private float maxcuerda2;
+    public float cuerda1;
+    public float maxcuerda1;
+    public float cuerda2;
+    public float maxcuerda2;
     public float speed1;
     public float speed2;
     public float rotspeed1; 
@@ -19,6 +19,13 @@ public class PlayerController : MonoBehaviour
     private float cuerdaRate=0.5f;
     private Robot Robotp1;
     private Robot Robotp2;
+    private int count1;
+    private int count2;
+    private Healthbar healthbar1;
+    private Healthbar healthbar2;
+    private GameObject barra1;
+    private GameObject barra2;
+
 
 
     private bool cuenta=false;
@@ -51,6 +58,12 @@ public class PlayerController : MonoBehaviour
         rotspeed2= temp[1];
         ataque2= temp[2];
         maxcuerda2= temp[3];
+
+        barra1 = GameObject.Find("Robot1/Canvas/Barra");
+        healthbar1=barra1.GetComponent<Healthbar>();
+
+        barra2 = GameObject.Find("Robot2/Canvas/Barra");
+        healthbar2=barra2.GetComponent<Healthbar>();
     }
 
     // Update is called once per frame
@@ -109,6 +122,9 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+
+        healthbar1.UpdateHealth(cuerda1/maxcuerda1);
+        healthbar2.UpdateHealth(cuerda2/maxcuerda2);
     }
 
     void FixedUpdate(){

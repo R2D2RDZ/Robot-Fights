@@ -10,5 +10,6 @@ public class Healthbar : MonoBehaviour
     public void UpdateHealth(float fraction){
         healthbar.fillAmount = fraction;
     }
+    
 
 }
