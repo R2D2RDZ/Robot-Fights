@@ -22,7 +22,7 @@ public class Robot : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log(SceneManager.GetActiveScene().name);
+        //Debug.Log(SceneManager.GetActiveScene().name);
         if (SceneManager.GetActiveScene().name == "MainMenu") Destroy(gameObject);
         DontDestroyOnLoad(this.gameObject);
     }
