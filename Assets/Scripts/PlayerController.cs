@@ -109,29 +109,55 @@ public class PlayerController : MonoBehaviour
         }
 
         if(cuenta){
-            if(Robotp1.isDown){
+            if(Robotp1.isDown && Robotp2.isDown){
                 if(Input.GetKeyDown(KeyCode.W)){
-                    cuerda1+=10;
+                    cuerda1+=15;
                     GameObject.Find("Robot1/ClockKey").transform.Rotate(Vector3.left, ((rotspeed1*10) * Time.deltaTime));
                     if(cuerda1 >= maxcuerda1){
                         cuenta=false;
                         Robotp1.isDown=false;
                         CancelInvoke();
-                        count1 -= 2;
                         p1countdown.text = "";
                     }
                 }
+                if(Robotp2.isDown){
+                    if(Input.GetKeyDown(KeyCode.UpArrow)){
+                        cuerda2+=15;
+                        GameObject.Find("Robot2/ClockKey").transform.Rotate(Vector3.left, ((rotspeed2*10) * Time.deltaTime));
+                        if(cuerda2 >= maxcuerda2){
+                            cuenta=false;
+                            Robotp2.isDown=false;
+                            CancelInvoke();
+                            p2countdown.text = "";
+                        }
+                    }
+                }
             }
-            if(Robotp2.isDown){
-                if(Input.GetKeyDown(KeyCode.UpArrow)){
-                    cuerda2+=10;
-                    GameObject.Find("Robot2/ClockKey").transform.Rotate(Vector3.left, ((rotspeed2*10) * Time.deltaTime));
-                    if(cuerda2 >= maxcuerda2){
-                        cuenta=false;
-                        Robotp2.isDown=false;
-                        CancelInvoke();
-                        count2 -= 2;
-                        p2countdown.text = "";
+            else{
+                if(Robotp1.isDown){
+                    if(Input.GetKeyDown(KeyCode.W)){
+                        cuerda1+=15;
+                        GameObject.Find("Robot1/ClockKey").transform.Rotate(Vector3.left, ((rotspeed1*10) * Time.deltaTime));
+                        if(cuerda1 >= maxcuerda1){
+                            cuenta=false;
+                            Robotp1.isDown=false;
+                            CancelInvoke();
+                            count1 -= 2;
+                            p1countdown.text = "";
+                        }
+                    }
+                }
+                if(Robotp2.isDown){
+                    if(Input.GetKeyDown(KeyCode.UpArrow)){
+                        cuerda2+=15;
+                        GameObject.Find("Robot2/ClockKey").transform.Rotate(Vector3.left, ((rotspeed2*10) * Time.deltaTime));
+                        if(cuerda2 >= maxcuerda2){
+                            cuenta=false;
+                            Robotp2.isDown=false;
+                            CancelInvoke();
+                            count2 -= 2;
+                            p2countdown.text = "";
+                        }
                     }
                 }
             }
@@ -178,7 +204,9 @@ public class PlayerController : MonoBehaviour
             cuenta=true;
             
         }
-        if(!Robotp1.isDown && !Robotp2.isDown) { hasStarted = true; }
+        if(!Robotp1.isDown && !Robotp2.isDown) { 
+            hasStarted = true; 
+            }
     }
     void CountDown()
     {
