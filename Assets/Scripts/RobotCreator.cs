@@ -71,9 +71,9 @@ public class RobotCreator : MonoBehaviour
     }
     public void Safe()
     {
-        using (StreamWriter sw = new StreamWriter(nombreArchivo))
+        using (StreamWriter sw = File.AppendText(nombreArchivo))
         {
-            sw.WriteLine(robotName + "," + head + "," + hand + "," + body + "," + leg);
+            sw.WriteLine(robotName.text + "," + head + "," + hand + "," + body + "," + leg);
         }
 
     }
