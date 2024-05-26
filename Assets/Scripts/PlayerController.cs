@@ -10,8 +10,12 @@ public class PlayerController : MonoBehaviour
     public float maxcuerda1=500;
     public float cuerda2;
     public float maxcuerda2=1000;
-    public float speed;
-    public float rotspeed; 
+    public float speed1;
+    public float speed2;
+    public float rotspeed1; 
+    public float rotspeed2; 
+    public float ataque1;
+    public float ataque2;
     private float cuerdaRate=0.5f;
     private Robot Robotp1;
     private Robot Robotp2;
@@ -21,12 +25,32 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player1 = GameObject.Find("Player1");
-        player2 = GameObject.Find("Player2");
+        player1 = GameObject.Find("Robot1");
+        player2 = GameObject.Find("Robot2");
 
         Robotp1 = player1.GetComponent<Robot>();
         Robotp2 = player2.GetComponent<Robot>();
 
+        player1.transform.position = new Vector3(-6.5f, 9f, -1.5f);
+        player2.transform.position = new Vector3(10.9f, 9f, 10.9f);
+
+        player1.transform.localScale = Vector3.one;
+        player2.transform.localScale = Vector3.one;
+
+        player1.transform.eulerAngles = new Vector3(0, 55, 0);
+        player2.transform.eulerAngles = new Vector3(0, 235, 0);
+
+        float[] temp = Robotp1.GetStats();
+        speed1 = temp[0];
+        rotspeed1= temp[1];
+        ataque1= temp[2];
+        maxcuerda1= temp[3];
+
+        temp = Robotp2.GetStats();
+        speed2 = temp[0];
+        rotspeed2= temp[1];
+        ataque2= temp[2];
+        maxcuerda2= temp[3];
     }
 
     // Update is called once per frame
@@ -34,34 +58,34 @@ public class PlayerController : MonoBehaviour
     {
         if(!cuenta){
             if(Input.GetKey(KeyCode.W)){
-                player1.transform.position += player1.transform.forward*speed*Time.deltaTime;
+                player1.transform.position += player1.transform.forward*speed1*Time.deltaTime;
             }
             if(Input.GetKey(KeyCode.A)){
-                float rotationAmount = rotspeed * Time.deltaTime;
+                float rotationAmount = rotspeed1 * Time.deltaTime;
                 player1.transform.Rotate(Vector3.down, rotationAmount);
             }
             if(Input.GetKey(KeyCode.D)){
-                float rotationAmount = rotspeed * Time.deltaTime;
+                float rotationAmount = rotspeed1 * Time.deltaTime;
                 player1.transform.Rotate(Vector3.up, rotationAmount);
             }
             if(Input.GetKey(KeyCode.S)){
-                player1.transform.position -= player1.transform.forward*speed*Time.deltaTime;
+                player1.transform.position -= player1.transform.forward*speed1*Time.deltaTime;
             }
 
             //player2
             if(Input.GetKey(KeyCode.UpArrow)){
-                player2.transform.position += player2.transform.forward*speed*Time.deltaTime;
+                player2.transform.position += player2.transform.forward*speed2*Time.deltaTime;
             }
             if(Input.GetKey(KeyCode.LeftArrow)){
-                float rotationAmount = rotspeed * Time.deltaTime;
+                float rotationAmount = rotspeed2 * Time.deltaTime;
                 player2.transform.Rotate(Vector3.down, rotationAmount);
             }
             if(Input.GetKey(KeyCode.RightArrow)){
-                float rotationAmount = rotspeed * Time.deltaTime;
+                float rotationAmount = rotspeed2 * Time.deltaTime;
                 player2.transform.Rotate(Vector3.up, rotationAmount);
             }
             if(Input.GetKey(KeyCode.DownArrow)){
-                player2.transform.position -= player2.transform.forward*speed*Time.deltaTime;
+                player2.transform.position -= player2.transform.forward*speed2*Time.deltaTime;
             }
         }
 

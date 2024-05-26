@@ -165,6 +165,21 @@ MonoBehaviour:
   - {fileID: 5683137634104197612}
   Legs:
   - {fileID: 8113677664291812050}
+  HandsStats:
+  - {fileID: 11400000, guid: 15e570b9d2fe6d949827a87521751afd, type: 2}
+  - {fileID: 11400000, guid: 1ac95ce282fb43f44ae7b03cadf33453, type: 2}
+  - {fileID: 11400000, guid: f3de1cc132d71184b91c49e80c72d226, type: 2}
+  HeadsStats:
+  - {fileID: 11400000, guid: 3a1b928dde0648543932cab5bbd09df4, type: 2}
+  - {fileID: 11400000, guid: e74a6b715317f1647bbbac0924569b06, type: 2}
+  - {fileID: 11400000, guid: d6f5bd1af2f4c264bad6c021282b9d57, type: 2}
+  BodysStats:
+  - {fileID: 11400000, guid: 520b6cc1a8fa2ae4cbac2c28cb3221a1, type: 2}
+  - {fileID: 11400000, guid: 745c2d23ecb0eb444b2505a0522d6061, type: 2}
+  - {fileID: 11400000, guid: e54b2680d57d60741a180defaffe766f, type: 2}
+  LegsStats:
+  - {fileID: 11400000, guid: 1fea6400429a3ae4193a7f1abb902a9a, type: 2}
+  - {fileID: 11400000, guid: fa795e65b8992664f931eb275d12973c, type: 2}
 --- !u!1 &8082864501306357114
 GameObject:
   m_ObjectHideFlags: 0
