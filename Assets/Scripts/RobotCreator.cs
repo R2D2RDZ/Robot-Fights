@@ -5,22 +5,30 @@ using System.IO;
 using System;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEngine.UI;
+using System.Data;
 
 public class RobotCreator : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] Robot robot;
+
+    int[] parts = new int[] { 0, 0, 0, 0 };
+
+
     int hand = 0;
-    [SerializeField] GameObject[] Hands = new GameObject[4];
+    [SerializeField] GameObject[] Hands = new GameObject[3];
     int head = 0;
-    [SerializeField] GameObject[] Heads = new GameObject[4];
+    [SerializeField] GameObject[] Heads = new GameObject[3];
     int body = 0;
-    [SerializeField] GameObject[] Bodys = new GameObject[4];
+    [SerializeField] GameObject[] Bodys = new GameObject[3];
     int leg = 0;
-    [SerializeField] GameObject[] Legs = new GameObject[4];
+    [SerializeField] GameObject[] Legs = new GameObject[2];
 
     string nombreArchivo = "SavedRobots";
 
     [SerializeField] TMP_InputField robotName;
+
+    [SerializeField] Slider[] stats;
 
     void Start()
     {
@@ -36,38 +44,42 @@ public class RobotCreator : MonoBehaviour
 
     public void ChangeHand(int change)
     {
-        Hands[hand].SetActive(false);
-        hand += change;
-        if (hand < 0) { hand = Hands.Length - 1; }
-        if (hand >= Hands.Length) { hand = 0; }
-        Hands[hand].SetActive(true);
+        robot.DisableParts(parts);
+        parts[1] += change;
+        if (parts[1] < 0) { parts[1] = Hands.Length - 1; }
+        if (parts[1] >= Hands.Length) { parts[1] = 0; }
+        robot.EnableParts(parts);
+        UpdateStats();
 
     }
     public void ChangeHead(int change) 
     {
-        Heads[head].SetActive(false);
-        head += change;
-        if (head < 0) { head = Heads.Length - 1; }
-        if (head >= Heads.Length) { head = 0; }
-        Heads[head].SetActive(true);
+        robot.DisableParts(parts);
+        parts[0] += change;
+        if (parts[0] < 0) { parts[0] = Heads.Length - 1; }
+        if (parts[0] >= Heads.Length) { parts[0] = 0; }
+        robot.EnableParts(parts);
+        UpdateStats();
 
     }
     public void ChangeBody(int change)
     {
-        Bodys[body].SetActive(false);
-        body += change;
-        if (body < 0) { body = Bodys.Length - 1; }
-        if (body >= Bodys.Length) { body = 0; }
-        Bodys[body].SetActive(true);
+        robot.DisableParts(parts);
+        parts[2] += change;
+        if (parts[2] < 0) { parts[2] = Bodys.Length - 1; }
+        if (parts[2] >= Bodys.Length) { parts[2] = 0; }
+        robot.EnableParts(parts);
+        UpdateStats();
 
     }
     public void ChangeLeg(int change)
     {
-        Legs[leg].SetActive(false);
-        leg += change;
-        if (leg < 0) { leg = Legs.Length - 1; }
-        if (leg >= Legs.Length) { leg = 0; }
-        Legs[leg].SetActive(true);
+        robot.DisableParts(parts);
+        parts[3] += change;
+        if (parts[3] < 0) { parts[3] = Legs.Length - 1; }
+        if (parts[3] >= Legs.Length) { parts[3] = 0; }
+        robot.EnableParts(parts);
+        UpdateStats();
     }
     public void Safe()
     {
@@ -84,13 +96,21 @@ public class RobotCreator : MonoBehaviour
             }
         }
 
-        txt += robotName.text + "," + head + "," + hand + "," + body + "," + leg + Environment.NewLine + Environment.NewLine;
+        txt += robotName.text + "," + parts[0] + "," + parts[1] + "," + parts[2] + "," + parts[3] + Environment.NewLine + Environment.NewLine;
 
         using (StreamWriter sw = new StreamWriter(nombreArchivo))
         {
             sw.Write(txt + Environment.NewLine);
         }
-
+        
+    }
+    void UpdateStats()
+    {
+        float[] temp = robot.GetStats();
+        for (int i = 0; i < temp.Length; i++)
+        {
+            stats[i].value = temp[i];
+        }
     }
 }
 
