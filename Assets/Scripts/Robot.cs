@@ -5,6 +5,7 @@ using UnityEngine;
 public class Robot : MonoBehaviour
 {
     int hand = 0;
+    public bool isDown=false;
     [SerializeField] GameObject[] Hands = new GameObject[4];
     int head = 0;
     [SerializeField] GameObject[] Heads = new GameObject[4];

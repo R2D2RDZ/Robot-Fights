@@ -1098,8 +1098,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1: {fileID: 0}
   player2: {fileID: 0}
-  speed: 5
-  rotspeed: 30
+  cuerda1: 501
+  maxcuerda1: 700
+  cuerda2: 1000
+  maxcuerda2: 1000
+  speed: 7
+  rotspeed: 80
 --- !u!4 &1399913911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 190326483866604236, guid: 0e3ed3e926d407544a74fd008f01fd0f, type: 3}
