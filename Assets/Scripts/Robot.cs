@@ -15,7 +15,7 @@ public class Robot : MonoBehaviour
     [SerializeField] GameObject[] Legs = new GameObject[4];
     void Start()
     {
-
+        DontDestroyOnLoad(this.gameObject);
     }
     public void DisableParts(int[] i)
     {

@@ -10,9 +10,6 @@ public static class CharacterSelector
 
     static character[] personajes = new character[8];
 
-    static int P1 = 0;
-    static int P2 = 0;
-
     static string nombreArchivo = "SavedRobots";
 
     public static int LoadCharacters()
