@@ -16,7 +16,7 @@ public class Ataque : MonoBehaviour
             controller.cuerda1 = controller.cuerda1 - controller.ataque2;
         }
         
-        else if(victima.gameObject.name=="Robot1"){
+        else if(victima.gameObject.name=="Robot2"){
             controller.cuerda2 = controller.cuerda2 - controller.ataque1;
         }
     }

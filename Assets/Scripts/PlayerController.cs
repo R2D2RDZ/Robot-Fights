@@ -106,6 +106,7 @@ public class PlayerController : MonoBehaviour
             if(Robotp1.isDown){
                 if(Input.GetKeyDown(KeyCode.W)){
                     cuerda1+=10;
+                    GameObject.Find("Robot1/ClockKey").transform.Rotate(Vector3.left, ((rotspeed1*10) * Time.deltaTime));
                     if(cuerda1 >= maxcuerda1){
                         cuenta=false;
                         Robotp1.isDown=false;
@@ -115,6 +116,7 @@ public class PlayerController : MonoBehaviour
             if(Robotp2.isDown){
                 if(Input.GetKeyDown(KeyCode.UpArrow)){
                     cuerda2+=10;
+                    GameObject.Find("Robot2/ClockKey").transform.Rotate(Vector3.left, ((rotspeed2*10) * Time.deltaTime));
                     if(cuerda2 >= maxcuerda2){
                         cuenta=false;
                         Robotp2.isDown=false;
@@ -134,7 +136,9 @@ public class PlayerController : MonoBehaviour
             player2.transform.eulerAngles = new Vector3(0, player2.transform.eulerAngles.y, player2.transform.eulerAngles.z);
 
             cuerda1 -= cuerdaRate;
+            GameObject.Find("Robot1/ClockKey").transform.Rotate(Vector3.right, ((rotspeed1*5) * Time.deltaTime));
             cuerda2 -= cuerdaRate;
+            GameObject.Find("Robot2/ClockKey").transform.Rotate(Vector3.right, ((rotspeed2*5) * Time.deltaTime));
         }
         if(cuerda1<=0)
         {
