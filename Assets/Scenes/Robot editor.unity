@@ -343,7 +343,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 147299990}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2048515622}
+        m_TargetAssemblyTypeName: RobotCreator, Assembly-CSharp
+        m_MethodName: Safe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &147299990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2116,6 +2128,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 771505646}
   m_CullTransparentMesh: 1
+--- !u!1 &789795717 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3123354326301638071, guid: 6597bf1019875fe42807f33bb5a2c08f, type: 3}
+  m_PrefabInstance: {fileID: 470514912}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &817595465 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4352934248175352451, guid: 6597bf1019875fe42807f33bb5a2c08f, type: 3}
@@ -2392,6 +2409,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945443257}
   m_CullTransparentMesh: 1
+--- !u!1 &974295249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5927574068857758658, guid: 6597bf1019875fe42807f33bb5a2c08f, type: 3}
+  m_PrefabInstance: {fileID: 470514912}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1187647797
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,6 +3036,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -12}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1349196521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 894392504503102462, guid: 6597bf1019875fe42807f33bb5a2c08f, type: 3}
+  m_PrefabInstance: {fileID: 470514912}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1419483996
 GameObject:
   m_ObjectHideFlags: 0
@@ -3463,6 +3490,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -73}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1576070333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8113677664291812050, guid: 6597bf1019875fe42807f33bb5a2c08f, type: 3}
+  m_PrefabInstance: {fileID: 470514912}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1786808071
 GameObject:
   m_ObjectHideFlags: 0
@@ -3946,26 +3978,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hands:
+  - {fileID: 1349196521}
   - {fileID: 570587739}
   - {fileID: 148516293}
   - {fileID: 557911995}
   - {fileID: 528080965}
   Heads:
+  - {fileID: 789795717}
   - {fileID: 925305543}
   - {fileID: 395820209}
   - {fileID: 688915522}
   - {fileID: 103586463}
   Bodys:
+  - {fileID: 974295249}
   - {fileID: 1954327256}
   - {fileID: 1536461289}
   - {fileID: 1878630155}
   - {fileID: 817595465}
   Legs:
+  - {fileID: 1576070333}
   - {fileID: 1539219260}
   - {fileID: 1829448271}
   - {fileID: 652163141}
   - {fileID: 588848892}
-  robotName: {fileID: 0}
+  robotName: {fileID: 447988242}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
