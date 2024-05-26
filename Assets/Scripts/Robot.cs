@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Robot : MonoBehaviour
 {
@@ -18,8 +19,11 @@ public class Robot : MonoBehaviour
     [SerializeField] Stats[] HeadsStats= new Stats[4];
     [SerializeField] Stats[] BodysStats= new Stats[4];
     [SerializeField] Stats[] LegsStats= new Stats[4];
-    void Start()
+
+    private void FixedUpdate()
     {
+        Debug.Log(SceneManager.GetActiveScene().name);
+        if (SceneManager.GetActiveScene().name == "MainMenu") Destroy(gameObject);
         DontDestroyOnLoad(this.gameObject);
     }
     public void DisableParts(int[] i)
@@ -35,9 +39,9 @@ public class Robot : MonoBehaviour
         Hands[i[1]].SetActive(true);
         Bodys[i[2]].SetActive(true);
         Legs[i[3]].SetActive(true);
-        head= i[0];
+        head = i[0];
         hand = i[1];
-        body= i[2];
+        body = i[2];
         leg = i[3];
     }
 
