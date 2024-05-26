@@ -449,6 +449,7 @@ MonoBehaviour:
   - {fileID: 5683137634104197612}
   Legs:
   - {fileID: 8113677664291812050}
+  - {fileID: 542225696779529505}
   HandsStats:
   - {fileID: 11400000, guid: 15e570b9d2fe6d949827a87521751afd, type: 2}
   - {fileID: 11400000, guid: 1ac95ce282fb43f44ae7b03cadf33453, type: 2}
@@ -940,6 +941,11 @@ PrefabInstance:
       addedObject: {fileID: 8486669502945723538}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c67e6452721b6746a842559c1d26033, type: 3}
+--- !u!1 &542225696779529505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5c67e6452721b6746a842559c1d26033, type: 3}
+  m_PrefabInstance: {fileID: 812678404899655792}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &922551593844455323 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5c67e6452721b6746a842559c1d26033, type: 3}
