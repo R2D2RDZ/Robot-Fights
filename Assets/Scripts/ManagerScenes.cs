@@ -21,4 +21,21 @@ public class ManagerScenes : MonoBehaviour
     {
         SceneManager.LoadScene("Ring");
     }
+
+    public static void ChangeMain()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+    public static void ChangeLobby()
+    {
+        SceneManager.LoadScene("Lobby");
+    }
+    public static void ChangeEditor()
+    {
+        SceneManager.LoadScene("RobotEditor");
+    }
+    public static void ChangeGame()
+    {
+        SceneManager.LoadScene("Ring");
+    }
 }

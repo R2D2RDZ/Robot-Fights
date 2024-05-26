@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,8 +21,12 @@ public class PlayerController : MonoBehaviour
     private float cuerdaRate=0.5f;
     private Robot Robotp1;
     private Robot Robotp2;
-    private int count1;
-    private int count2;
+    private int count1 = 10;
+    private int count2 = 10;
+    int countdown;
+    [SerializeField] TMP_Text p1countdown;
+    [SerializeField] TMP_Text p2countdown;
+    [SerializeField] bool hasStarted= false;
     private Healthbar healthbar1;
     private Healthbar healthbar2;
     private GameObject barra1;
@@ -110,6 +116,9 @@ public class PlayerController : MonoBehaviour
                     if(cuerda1 >= maxcuerda1){
                         cuenta=false;
                         Robotp1.isDown=false;
+                        CancelInvoke();
+                        count1 -= 2;
+                        p1countdown.text = "";
                     }
                 }
             }
@@ -120,6 +129,9 @@ public class PlayerController : MonoBehaviour
                     if(cuerda2 >= maxcuerda2){
                         cuenta=false;
                         Robotp2.isDown=false;
+                        CancelInvoke();
+                        count2 -= 2;
+                        p2countdown.text = "";
                     }
                 }
             }
@@ -139,17 +151,65 @@ public class PlayerController : MonoBehaviour
             GameObject.Find("Robot1/ClockKey").transform.Rotate(Vector3.right, ((rotspeed1*5) * Time.deltaTime));
             cuerda2 -= cuerdaRate;
             GameObject.Find("Robot2/ClockKey").transform.Rotate(Vector3.right, ((rotspeed2*5) * Time.deltaTime));
+            Robotp1.isDown= false;
+            Robotp2.isDown= false;
         }
         if(cuerda1<=0)
         {
             player1.transform.eulerAngles = new Vector3(90, player1.transform.eulerAngles.y, player1.transform.eulerAngles.z);
-            cuenta=true;
+            
             Robotp1.isDown=true;
+            if (hasStarted && !cuenta)
+            {
+                countdown = count1;
+                InvokeRepeating("CountDown", 0, 1);
+            }
+            cuenta=true;
         }
         if(cuerda2<=0){
             player2.transform.eulerAngles = new Vector3(90, player2.transform.eulerAngles.y, player2.transform.eulerAngles.z);
-            cuenta=true;
+            
             Robotp2.isDown=true;
+            if (hasStarted && !cuenta)
+            {
+                countdown = count2;
+                InvokeRepeating("CountDown", 0, 1);
+            }
+            cuenta=true;
+            
         }
+        if(!Robotp1.isDown && !Robotp2.isDown) { hasStarted = true; }
+    }
+    void CountDown()
+    {
+
+        if (Robotp1.isDown)
+        {
+            p1countdown.text = countdown.ToString();
+        }
+        else
+        {
+            p2countdown.text = countdown.ToString();
+        }
+        if (countdown == 0)
+        {
+            if (Robotp1.isDown)
+            {
+                p1countdown.text = "You lose";
+                p2countdown.text = "You win";
+            }
+            else
+            {
+                p1countdown.text = "You win";
+                p2countdown.text = "You lose";
+            }
+            CancelInvoke();
+            Invoke("endfight", 3f);
+        }
+        countdown--;
+    }
+    void endfight()
+    {
+        ManagerScenes.ChangeLobby();
     }
 }
